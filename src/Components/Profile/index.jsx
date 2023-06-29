@@ -5,13 +5,13 @@ export default function Profile({avatar, name, bio, email, phone, githubUrl, lin
     return(
         <>
             <img src={avatar} alt={name}/>
-            <h2>{name}</h2>
+            <h2 className="name borderBottom">{name}</h2>
             
-            <p>{bio}</p>
+            <p className="bio borderBottom">{bio}</p>
             
-            <p>{phone}</p>
+            <p className="phone borderBottom">{phone}</p>
             
-            <a href={"mailto:"+ email}>{email}</a>
+            <a href={"mailto:"+ email} className="email borderBottom">{email}</a>
             
             <Button text="GitHub" url={githubUrl}/>
             <Button text="Linkedin" url={linkedinUrl}/>

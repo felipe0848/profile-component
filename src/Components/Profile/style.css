@@ -2,12 +2,10 @@ img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 25%) ;
 }
 a{
     margin-bottom: 1rem;
     text-decoration: none;
-}
-hr{
-    background-color: brown;
-    border: 1px solid black;
+    color: inherit;
 }
