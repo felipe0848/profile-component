@@ -1,0 +1,13 @@
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+a{
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+hr{
+    background-color: brown;
+    border: 1px solid black;
+}

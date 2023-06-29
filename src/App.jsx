@@ -1,5 +1,6 @@
 import Profile from "./Components/Profile";
 import avatarImg from "./assets/avatar.png"
+import "./App.css"
 
 export default function App(){
     return(
